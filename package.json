@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --watchAll"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Rchandler1/challenge10/issues"
   },
-  "homepage": "https://github.com/Rchandler1/challenge10#readme"
+  "homepage": "https://github.com/Rchandler1/challenge10#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
 }
