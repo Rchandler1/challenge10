@@ -6,5 +6,7 @@ const employee = new Employee('name');
 
 expect (employee.name).toBe('name');
 expect (employee.id).toEqual(expect.any(Number));
+expect (employee.email).toBe('email');
+expect (employee.role).toBe('employee')
 console.log(employee.id)
 });
